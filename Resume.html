@@ -1,56 +1,83 @@
 <html>
   <body>
-    <main>
+    <style>
+      header {
+        padding-top: 2px;
+        padding-bottom: 2px;
+        text-align: center;
+        color: white;
+        font-family: sans-serif;
+      }
+      body {
+        width: 98%;
+        height: 100%;
+        color: whitesmoke;
+        background: #f1efef;
+        background: #3a2f9e;
+        background: linear-gradient(to right, #c02222, #404b4b, #363838);
+      }
+      h4 {
+        color: #000000;
+      }
+      h2 {
+        display: block;
+        color: black;
+      }
+      section {
+        display: block;
+      }
+      li {
+        font-size: large;
+      }
+      nav {
+        text-align: center;
+        display: block;
+        color: white;
+        font-family: serif;
+        font-size: medium;
+      }
+      a {
+        color: lightgray;
+        curson: pointer;
+      }
+      footer {
+        text-align: center;
+        font-size: large;
+      }
+    </style>
+    <header>
       <h1>Bhavesh Malviya</h1>
       <h2>Indore, Madhya Pradesh</h2>
-      <nav>
-        Contact Information :
-        <a href="tel:+918823080874">(+91)8823080874</a>
-        <a href="https://github.com/BVM-09">Github</a>
-        <a href="mailto:bhaveshmalviya2049@gmail.com"
-          >bhaveshmalviya2049@gmail.com</a
-        >
-        <a href="https://www.instagram.com/_bhavesh.exe/">Instagram</a>
-        <a href="https://twitter.com/Bhavesh864770">X</a>
-      </nav>
-      <h2 id="Education">Education</h2>
+    </header>
+    <nav>
+      <a href="tel:+918823080874" target="_blank">Phone | </a>
+      <a href="https://github.com/BVM-09" target="_blank">Github | </a>
+      <a href="mailto:bhaveshmalviya2049@gmail.com" target="_blank">Email | </a>
+      <a href="https://www.instagram.com/_bhavesh.exe/" target="_blank"
+        >Instagram |
+      </a>
+      <a href="https://twitter.com/Bhavesh864770" target="_blank">Twitter</a>
+    </nav>
+    <hr />
+    <main>
       <section>
-        <ul>
-          Shri Vaishnav Institute of Technology, Indore
-        </ul>
-        <ul>
-          BCA
-        </ul>
-        <ul>
-          Expected June 2026
-        </ul>
-        <h4>Relavent Courses</h4>
-        <ul>
-          Database Management
-        </ul>
-        <ul>
-          Computer Fundamentals
-        </ul>
-        <ul>
-          Business Communication
-        </ul>
-        <ul>
-          Web Development
-        </ul>
+        <h2>Education</h2>
+        <li>
+          Shri Vaishnav Institute of Technology, Indore | BCA | Expected June
+          2026
+        </li>
+        <li>HigherSecondary | Kendriya Vidyalaya School, Jhabua</li>
       </section>
-      <h2 class="Technical Skills">Technical Skills</h2>
-      <h3 id="Programming Languages">Programming Languages</h3>
-      <p class="label">Python, C, HTML, CSS</p>
-      <h3 class="Technical Skills">Front-end Development</h3>
-      <p class="label">HTML, CSS, Javascript</p>
-      <h3 class="Technical Skills">Version Control</h3>
-      <p class="label">Git, Github</p>
-      <h2 id="Project">Projects</h2>
-      <h4>
-        <a href="https://github.com/BVM-09/Simple-chat-app.git"
-          >Simple-chat-app</a
-        >
-      </h4>
+      <hr />
+      <article>
+        <h2>Programming Languages</h2>
+        <p>HTML | CSS | Javascript | Python | C</p>
+      </article>
+      <hr />
+      <h2>Projects</h2>
+      <a href="https://github.com/BVM-09/Simple-chat-app.git"
+        ><h4>Simple-chat-app</h4></a
+      >
       <ul>
         <li>
           Created a user-friendly chat interface with real-time messaging
@@ -60,19 +87,25 @@
         </li>
         <li>For Front-end I have used HTML, CSS and Javascript.</li>
         <li>Used NodeJS and Socket.io for backend.</li>
-        <h5>Some More cool Projects Coming Soon....</h5>
+        <h5 class="Project" align="center">
+          Some More cool Projects Coming Soon....
+        </h5>
       </ul>
-      <h2 id="Hobbies">Hobbies and Achievements</h2>
-      <ul>
-        <li>
-          Cricket: Passionate about the sport and have experience playing at the
-          city level.
-        </li>
-        <li>
-          Performing Arts: Active participant in school clubs and events
-          showcasing talent in drama and dance.
-        </li>
-      </ul>
+      <hr />
+      <section>
+        <h2 id="Hobbies">Hobbies and Achievements</h2>
+        <ul>
+          <li>
+            Cricket: Passionate about the sport and have experience playing at
+            the city level.
+          </li>
+          <li>
+            Performing Arts: Active participant in school clubs and events
+            showcasing talent in drama and dance.
+          </li>
+        </ul>
+      </section>
     </main>
+    <footer>© Bhavesh Malviya</footer>
   </body>
 </html>
